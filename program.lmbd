@@ -1,0 +1,42 @@
+(define =>
+
+((define) (yes => no =>
+    yes
+)) (yes =>
+
+((define) (yes => no =>
+    no
+)) (no =>
+
+((define) (value =>
+    ((value) (no)) (yes)
+)) (not =>
+
+((define) (first => second =>
+    ((first) (second)) (no)
+)) (both =>
+
+((define) (first => second =>
+    ((first) (second)) (yes)
+)) (if =>
+
+((define) (first => second =>
+    ((first) (yes)) (second)
+)) (either =>
+
+((define) (first => second =>
+    ((first) (no)) (second)
+)) (unless =>
+
+((define) (first => second =>
+    ((first) (second)) ((not) (second))
+)) (same =>
+
+((define) (first => second =>
+    ((first) ((not) (second))) (second)
+)) (different =>
+
+((different) (yes)) (yes)
+
+))))))))))
+(definition => scope => (scope) (definition))

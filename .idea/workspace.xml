@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lambda:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bfd724f-422e-4fee-8412-d63e97045b1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program.lmbd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ast/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ast/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ast/Identifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ast/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter/ASTToLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter/CSTToAST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter/TextToCST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/converter/TextToLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/Identifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/StrippedTerm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cst/Whitespaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Term.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/runner/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/runner/Iterator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;docker-desktop&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="docker-desktop" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YXOILrnK22TAC2Nbe7vKIaf4Ji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "java.suggest.annotation.dependency": "false",
+    "last_opened_file_path": "C:/Users/me/IdeaProjects/lambda1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\me\IdeaProjects\lambda" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lambda" />
+      <option name="VM_PARAMETERS" value="-Xss128M" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lambda" />
+      <option name="PROGRAM_PARAMETERS" value="program.lmbd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lambda.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/lambda_jar/lambda.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.lambda.jar" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bfd724f-422e-4fee-8412-d63e97045b1f" name="Changes" comment="" />
+      <created>1700668377334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700668377334</updated>
+      <workItem from="1700668378394" duration="1290000" />
+      <workItem from="1700669707973" duration="21346000" />
+      <workItem from="1700739570628" duration="16076000" />
+      <workItem from="1701077392012" duration="9648000" />
+      <workItem from="1701087111777" duration="1632000" />
+      <workItem from="1701356654671" duration="598000" />
+      <workItem from="1701371031082" duration="4087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
